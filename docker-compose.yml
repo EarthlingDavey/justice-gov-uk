@@ -129,7 +129,7 @@ services:
       "
 
   cdn:
-    image: caddy:2.7.6-alpine
+    image: caddy:2.10.0-alpine
     volumes:
       - ./deploy/config/local/Caddyfile:/etc/caddy/Caddyfile
     environment:
