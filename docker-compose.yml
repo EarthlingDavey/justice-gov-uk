@@ -53,7 +53,7 @@ services:
       - php-fpm
 
   node:
-    image: node:20
+    image: node:24
     working_dir: /node
     entrypoint: make
     command: node-assets
