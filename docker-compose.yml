@@ -84,7 +84,7 @@ services:
 
 
   mariadb:
-    image: mariadb:10
+    image: mariadb:11
     healthcheck:
       test: [ "CMD-SHELL", "bash", "-c", "echo > /dev/tcp/localhost/3306" ]
       interval: 1s
