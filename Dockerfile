@@ -151,7 +151,7 @@ RUN mkdir -p ./vendor-assets && \
 ###
 
 
-FROM node:20 AS assets-build
+FROM node:24 AS assets-build
 
 WORKDIR /node
 COPY ./public/app/themes/justice/src               ./src
