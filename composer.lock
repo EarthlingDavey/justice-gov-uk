@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed313263b6ff9d694ec851e1e409dea1",
+    "content-hash": "5df138b8171b9c86e963bc9189ed6d73",
     "packages": [
         {
             "name": "alphagov/notifications-php-client",
@@ -2783,7 +2783,7 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "6.7.2",
+            "version": "6.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/wordpress.git",
@@ -2814,7 +2814,7 @@
             ],
             "support": {
                 "issues": "https://github.com/roots/wordpress/issues",
-                "source": "https://github.com/roots/wordpress/tree/6.7.2"
+                "source": "https://github.com/roots/wordpress/tree/6.8.1"
             },
             "funding": [
                 {
@@ -2897,22 +2897,23 @@
         },
         {
             "name": "roots/wordpress-no-content",
-            "version": "6.7.2",
+            "version": "6.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "6.7.2"
+                "reference": "6.8.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-6.7.2-no-content.zip",
-                "shasum": "c33ca276601dee0ddf1e80d3e66403929a696e63"
+                "url": "https://downloads.wordpress.org/release/wordpress-6.8.1-no-content.zip",
+                "reference": "6.8.1",
+                "shasum": "33a47970c8e42d9d8719cfae34e02a7a75920959"
             },
             "require": {
                 "php": ">= 7.2.24"
             },
             "provide": {
-                "wordpress/core-implementation": "6.7.2"
+                "wordpress/core-implementation": "6.8.1"
             },
             "suggest": {
                 "ext-curl": "Performs remote request operations.",
@@ -2963,7 +2964,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2025-02-11T16:29:31+00:00"
+            "time": "2025-04-30T16:53:41+00:00"
         },
         {
             "name": "roots/wp-config",
@@ -11565,6 +11566,6 @@
         "php": ">=8.2",
         "ext-mysqli": "*"
     },
-    "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
